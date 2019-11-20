@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BLEPulsometr</string>
+    <string name="pulse_info">Твой пульс: %s</string>
+    <string name="ble_is_off">bluetooth не включен:( ВКЛЮЧИТЬ!!!</string>
+    <string name="ble_not_supported">На этом устройстве Bluetooth не поддерживается:(</string>
+</resources>
