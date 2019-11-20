@@ -15,7 +15,7 @@ public interface ViewModelFactoriesModule {
 
     @Binds
     @Singleton
-    @Named(DiConstants.VIEWMODELFACTORY_VOICE_BOT)
+    @Named(DiConstants.VIEWMODELFACTORY)
     ViewModelProvider.AndroidViewModelFactory provideViewModelFactory(BLEViewModelFactory factory);
 
 }

@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     @Inject
-    @Named(DiConstants.VIEWMODELFACTORY_VOICE_BOT)
+    @Named(DiConstants.VIEWMODELFACTORY)
     ViewModelProvider.AndroidViewModelFactory mBLEViewModelFactory;
     private BluetoothAdapter mBluetoothAdapter;
     private IBLEViewModel iBLEViewModel;

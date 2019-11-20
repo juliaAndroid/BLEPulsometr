@@ -16,13 +16,6 @@ public class SchedulersModule {
 
     @Provides
     @Singleton
-    @Named(DiConstants.SCHEDULER_COMPUTATION)
-    Scheduler provideComputationScheduler() {
-        return Schedulers.computation();
-    }
-
-    @Provides
-    @Singleton
     @Named(DiConstants.SCHEDULER_IO)
     Scheduler provideIoScheduler() {
         return Schedulers.io();
